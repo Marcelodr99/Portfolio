@@ -63,7 +63,7 @@ body{
     position: fixed;
     pointer-events: none;
 
-    background-image: url(/img/cybercursor.png);
+    background-image: url(/Portfolio/img/cybercursor.png);
     background-repeat: no-repeat;
     z-index: 9999;
 
@@ -133,7 +133,7 @@ strong { font-weight: var(--fw-bold) }
 }
 @font-face {
     font-family: Intercepter;
-    src: url("/img/interceptor/Interceptor.otf");
+    src: url("/Portfolio/img/interceptor/Interceptor.otf");
 }
 
 /* Buttons */
@@ -207,7 +207,7 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 2em;
 }
 .background__img {
-    background-image:url(/img/cyber2.jpg);
+    background-image:url(/Portfolio/img/cyber2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
