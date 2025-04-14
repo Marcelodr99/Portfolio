@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class = "background__img parallax">
-    
+    <div class = "cursor"></div>
         <!-- Container element -->
         
     <header>
@@ -32,7 +32,7 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
                 </ul>
@@ -41,6 +41,7 @@
     </header>
 
     <!-- Introduction -->
+
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
             Hi, I am <strong> Marcelo Del Rosario</strong>
@@ -48,7 +49,25 @@
         <p class="section__subtitle section__subtitle--intro">Web Developer / Software Engineer</p>
         <img src="img/Md-removebg-preview.png" alt="temporary pic" class="intro__img">
     </section>
-
+    <!-- About me -->
+    <section class = "about-me__background">
+        <section class="about-me reveal" id="about">
+         <!-- <h2 class="section__title section__title--about">Who I am</h2>
+         <p class="section__subtitle section__subtitle--about">Stockton University Graduate with a Bachelor of Science in Computer Science</p> 
+  -->
+         <div class="about-me__body">
+             <p>I am a 26 year old graduate of Stockton University with a Bachelor of Science
+                 in Computer Science and Technologies. I have experience as a web developer intern and have worked on several projects the past few years
+                 relating to web development and having worked on them in group enviroments. 
+             </p>
+             <p>I am proficient in front-end development using languages such as HTML 
+                 and CSS and have also experience making the back-end of websites using PHP and SQL. I also have experience working with react and django to build several websites/projects.
+             </p>
+         </div>
+ 
+         <img src="img/grad.png" alt="Temporary img" class="about-me__img">
+     </section>
+ </section>
     <!-- My services -->
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services reveal">Skills</h2>
@@ -100,27 +119,8 @@
         </div> <!-- / services -->
     </section>
 
-    <!-- About me -->
-    <section class = "about-me__background">
-       <section class="about-me reveal" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Stockton University Graduate with a Bachelor of Science in Computer Science</p> 
-
-        <div class="about-me__body">
-            <p>I am a 24 year old 2021-graduate of Stockton University with a Bachelor of Science
-                in Computer Science and Technologies. I have worked on several projects the past few years
-                relating to web development and having worked on them in group enviroments. 
-            </p>
-            <p>I am proficient in front-end development using languages such as HTML 
-                and CSS and have also experience making the back-end of websites using PHP and SQL.
-            </p>
-        </div>
-
-        <img src="img/grad.png" alt="Temporary img" class="about-me__img">
-    </section>
-</section>
     <!-- My work -->
-    <section class="my-work" id="work parallax">
+    <section class="my-work" id="work">
         <h2 class="section__title section__title--work reveal">My Projects</h2>
         <p class="section__subtitle section__subtitle--work reveal">A selection of my range of work</p>
 
@@ -179,32 +179,33 @@
 
     <!-- Footer -->
     <footer class="footer">
+        <div class = "cursor"></div>
         <!-- replace with your own email address-->
         <h2>Contact Me</h2>
         <br>
         <a href="mailto:marcelodr99@gmail.com" class="footer__link">marcelodr99@gmail.com</a>
-        <!-- <ul class="social-list">
+        <ul class="social-list">
             <li class="social-list__item">
-                <a class="social-list__link" href="https://linkedin.com">
+                <a class="social-list__link" href="https://www.linkedin.com/in/marcelo-del-rosario/">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </li>
-            <li class="social-list__item">
+            <!-- <li class="social-list__item">
                 <a class="social-list__link" href="https://twitter.com">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-            </li>
+            </li> -->
             <li class="social-list__item">
-                <a class="social-list__link" href="https://google.com">
+                <a class="social-list__link" href="mailto:marcelodr99@gmail.com">
                     <i class="fa-brands fa-google"></i>
                 </a>
             </li>
             <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com">
+                <a class="social-list__link" href="https://https://github.com/Marcelodr99">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </li>
-        </ul> -->
+        </ul>
     </footer>
 
     <script src="js/index.js">
